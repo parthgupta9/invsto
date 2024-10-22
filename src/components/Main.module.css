@@ -1,0 +1,12 @@
+.main{
+    width: 100%;
+}
+.bg{
+    background: url('../assets/bg-pattern.svg') no-repeat center center;
+    background-size: cover; /* Ensures the background covers the container */
+    height: 50vh;
+    width: 100%;
+    
+    /* Apply a curved shape on the left side */
+    clip-path: polygon( 0 0%, 100% 0%, 100% 100%, 0% 100%);
+}

@@ -1,0 +1,30 @@
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    height: 100vh; 
+    padding-top: 20px;
+  }
+  
+  .section {
+    max-width: 100%; 
+    text-align: center;
+    background: url('../assets/pattern-circles.svg') no-repeat center;
+    margin-top: 10px ;
+  }
+  
+  .section h2{
+    font-size: 2rem;
+  }
+  .section p{
+    color: grey;
+    margin-top: -10px;
+  }
+
+
+  @media (max-width: 768px) {
+    .section {
+      
+    }
+  }
